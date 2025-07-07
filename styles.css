@@ -1,51 +1,56 @@
+/* Base Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
+/* Hero Section */
 .hero {
   background: url("img/charity-water-project-1.jpg") no-repeat center center/cover;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   height: 100vh;
-  padding: 50px;
-  color: black;
   position: relative;
-}
-
-.hero-text-box {
-  background-color: rgba(255, 211, 0, 0.95); /* Yellow with transparency */
-  padding: 30px;
-  border-radius: 20px;
-  max-width: 600px;
-  font-family: Arial, sans-serif;
-}
-
-.hero-text-box h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.hero-text-box p {
-  font-size: 1em;
-  margin-bottom: 10px;
-  line-height: 1.6;
-}
-
-.donate-button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: black;
   color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Hero Box Styles */
+.hero-box {
+  background-color: #FFC907; /* Charity: Water yellow */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 700px;
+}
+
+.hero-box h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #1A1A1A; /* Charity: Water black */
+}
+
+.hero-box p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #1A1A1A;
+}
+
+/* Donate Button */
+.donate-button {
+  background-color: #FFC907;
+  color: #1A1A1A;
+  padding: 12px 28px;
   text-decoration: none;
   font-weight: bold;
+  border: 2px solid #1A1A1A;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .donate-button:hover {
-  background-color: #333;
+  background-color: #1A1A1A;
+  color: #FFC907;
 }
-
