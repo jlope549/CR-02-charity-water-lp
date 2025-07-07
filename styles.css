@@ -4,41 +4,48 @@ body {
 }
 
 .hero {
-  background: url("img/Charity Water Project 1.jpg") no-repeat center center/cover;
+  background: url("img/charity-water-project-1.jpg") no-repeat center center/cover;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100vh;
-  position: relative;
+  padding: 50px;
   color: black;
+  position: relative;
 }
 
 .hero-text-box {
-  background-color: #ffd100;
-  padding: 2rem;
-  max-width: 600px;
+  background-color: rgba(255, 211, 0, 0.95); /* Yellow with transparency */
+  padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  max-width: 600px;
+  font-family: Arial, sans-serif;
 }
 
 .hero-text-box h1 {
-  font-size: 2rem;
+  font-size: 2.5em;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
 }
 
 .hero-text-box p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 1em;
+  margin-bottom: 10px;
   line-height: 1.6;
 }
 
 .donate-button {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #000;
-  color: #fff;
+  padding: 12px 24px;
+  background-color: black;
+  color: white;
   text-decoration: none;
-  border-radius: 30px;
   font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
+
+.donate-button:hover {
+  background-color: #333;
+}
+
