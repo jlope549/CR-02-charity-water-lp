@@ -75,3 +75,20 @@ body {
     font-size: 1.5rem;
   }
 }
+@media (max-width: 600px) {
+  .hero-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .hero-box h1 {
+    font-size: 1.25rem;
+  }
+
+  .donate-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
+
